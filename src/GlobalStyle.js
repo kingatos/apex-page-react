@@ -19,6 +19,8 @@ body {
 }
 
 h1 { 
-    padding: 20px;
+    padding: 20px 50px;
+    font-weight: 100;
+    margin-top: 100px;
 }
 `;
