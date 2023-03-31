@@ -5,8 +5,4 @@ export const StyledHomeIcon = styled.img`
   width: 200px;
   margin-right: 10px;
   padding-top: 40px;
-
- &:hover {
-  border-bottom: none !important;
- }
 `;

@@ -43,6 +43,6 @@ export const StyledNavLink = styled(NavLink)`
   }
 
   &:hover {
-    border-bottom: 1px solid;
+    color: ${({ theme }) => theme.color.alto};
   }
 `;

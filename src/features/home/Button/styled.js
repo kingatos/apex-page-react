@@ -1,18 +1,21 @@
 import styled from 'styled-components';
 
 export const StyledButton = styled.button`
-  background-color: #f36f21;
-  color: #fff;
+  background-color: ${({ theme }) => theme.color.doveGray};
+  color: ${({ theme }) => theme.color.white};
   border: none;
   padding: 15px 30px;
-  border-radius: 5px;
   font-size: 18px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+  transition: 0.5s;
 
   &:hover {
-    background-color: #fff;
-    color: #f36f21;
-    border: 2px solid #f36f21;
+    background-color: ${({ theme }) => theme.color.black};
+    transform: scale(1.05);
+  }
+
+  &:active {
+    background-color: ${({ theme }) => theme.color.trout};
   }
 `;

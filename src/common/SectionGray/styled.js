@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.section`
+export const WrapperSectionGrey = styled.section`
   padding: 50px;
-  background: ${({ theme }) => theme.color.white};
+  background: ${({ theme }) => theme.color.alto};
   box-shadow: 0 0 5px ${({ theme }) => theme.color.alto};
 `;
 
-export const SectionBody = styled.div`
+export const SectionGreyBody = styled.div`
   padding: 20px;
   display: flex;
   flex-direction: row;
@@ -27,10 +27,9 @@ export const ImageWrapper = styled.div`
   justify-content: center;
 
   img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
-
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     order: -1;
   }
@@ -47,6 +46,7 @@ export const TextWrapper = styled.div`
   h2 {
     font-size: 36px;
     margin-bottom: 20px;
+    padding-bottom: 70px;
   }
 
   p {
