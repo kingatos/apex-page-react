@@ -13,7 +13,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     padding: 20px 0;
-    background-color: ${({ theme }) => theme.color.swirl};
+    background-color: ${({ theme }) => theme.color.white};
     word-break: break-word;
     overflow-wrap: break-word;
 }
