@@ -7,6 +7,8 @@ export const theme = {
         rollingStone: "#787C82",
         trout: "#4D535B", 
         doveGray: "#696969",
+        charade: "#2E2D37",
+        dixie: "#e08e16",
     },
     breakpoint: {
         mobileMax: 767,
