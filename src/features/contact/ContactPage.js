@@ -1,7 +1,7 @@
 import Header from "../../common/Header";
-import Form from "../../common/Form";
 import Section from "../../common/Section";
-import { StyledContainer, TextWrapper } from "../../common/Container/styled";
+import { StyledContainer } from "../../common/Container/styled";
+import { TextWrapper } from "../../common/Section/styled";
 
 
 const ContactPage = () => (
@@ -21,7 +21,6 @@ const ContactPage = () => (
             8130134393
           </p>
           </TextWrapper>
-          <Form />
         </>
       }
     />
