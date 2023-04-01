@@ -1,6 +1,6 @@
 import { Wrapper, SectionBody } from "./styled";
 
-const Section = ({ body, img }) => (
+const Section = ({ img, body }) => (
     <Wrapper>
         <SectionBody>
             {img}
