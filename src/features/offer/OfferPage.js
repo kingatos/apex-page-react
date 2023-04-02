@@ -1,16 +1,19 @@
-import { StyledContainer, ImageWrapper, TextWrapper } from "../../common/Container/styled";
+import { StyledContainer } from "../../common/Container/styled";
+import { ImageWrapper, TextWrapper } from "../../common/Section/styled";
 import Header from "../../common/Header";
 import Section from "../../common/Section";
-import Img from "../../images/pracawre.jpg";
 
-const AboutPage = () => (
+
+const OfferPage = () => (
   <StyledContainer>
     <Header title="Oferta" />
-    <Section>
-      <ImageWrapper>img={Img}</ImageWrapper>
-      body=
+    <Section
+    body=
       {
         <>
+      <ImageWrapper>
+        <img src="./images/cienie.jpg" alt="efekt" />
+      </ImageWrapper>
           <TextWrapper>
             <ul>
               <h3>Usługi budowlane:</h3>
@@ -45,8 +48,8 @@ const AboutPage = () => (
           </TextWrapper>
         </>
       }
-    </Section>
+    />
   </StyledContainer>
 );
 
-export default AboutPage;
+export default OfferPage;

@@ -1,18 +1,13 @@
-import {
-  StyledContainer,
-  ImageWrapper,
-  TextWrapper,
-} from "../../common/Container/styled";
+import { StyledContainer } from "../../common/Container/styled";
 import Header from "../../common/Header";
 import Section from "../../common/Section";
-import Img from "../../images/rusztowanie.jpg";
+import { TextWrapper, ImageWrapper } from "../../common/Section/styled";
 
-const AboutPage = () => (
+const Realizations = () => (
   <StyledContainer>
     <Header title="Realizacje" />
-    <Section>
-      body=
-      {
+    <Section
+      body={
         <>
           <TextWrapper>
             <p>
@@ -25,11 +20,13 @@ const AboutPage = () => (
               klientów.
             </p>
           </TextWrapper>
-          <ImageWrapper>img={Img}</ImageWrapper>
+          <ImageWrapper>
+            <img src="./images/cienie.jpg" alt="efekt" />
+          </ImageWrapper>
         </>
       }
-    </Section>
+    />
   </StyledContainer>
 );
 
-export default AboutPage;
+export default Realizations;
