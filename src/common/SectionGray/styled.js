@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-export const WrapperSectionGrey = styled.section`
+export const WrapperSectionGray = styled.section`
   padding: 50px;
   background: ${({ theme }) => theme.color.alto};
   box-shadow: 0 0 5px ${({ theme }) => theme.color.alto};
 `;
 
-export const SectionGreyBody = styled.div`
+export const SectionGrayBody = styled.div`
   padding: 20px;
   display: flex;
   flex-direction: row;
