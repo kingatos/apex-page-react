@@ -18,6 +18,10 @@ export const StyledMenu = styled.ul`
   height: ${({ menuHeight }) => menuHeight}px;
   transition: height 0.5s;
   align-items: center;
+
+  &:hover {
+    height: ${({ expandedHeight }) => expandedHeight}px;
+  }
 `;
 
 export const ItemMenu = styled.li`

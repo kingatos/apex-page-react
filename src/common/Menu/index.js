@@ -4,6 +4,7 @@ import HomeIcon from ".././Menu/HomeIcon/index";
 
 const Menu = () => {
     const [menuHeight, setMenuHeight] = useState(100);
+    const expandedHeight = 100;
 
     useEffect(() => {
       const handleScroll = () => {
@@ -22,7 +23,7 @@ const Menu = () => {
     }, []);
 
 return (
-    <StyledMenu menuHeight={menuHeight}>
+    <StyledMenu menuHeight={menuHeight} expandedHeight={expandedHeight}>
         <ItemMenu>
         <StyledNavLink to="/">
           <HomeIcon />
