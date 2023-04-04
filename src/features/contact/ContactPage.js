@@ -2,6 +2,7 @@ import Header from "../../common/Header";
 import Section from "../../common/Section";
 import { StyledContainer } from "../../common/Container/styled";
 import { TextWrapper } from "../../common/Section/styled";
+import { ContactPharagraph, TelephonePharagraph, BoldText, InfoPharagraph, FavItem } from "./styled";
 
 
 const ContactPage = () => (
@@ -10,16 +11,16 @@ const ContactPage = () => (
     <Section
       body={
         <>
-        <TextWrapper>
-          <p>
-            Obsługujemy Klientów na terenie Rzeszów oraz bliskie okolice wokół
-            miasta. Zachęcamy do skorzystania z naszej oferty.
-          </p>
-          <p>
-            Kontakt +48601487829 +48178500092 edbud_rzeszow@poczta.onet.pl Info
-            ZRB EDBUD w Rzeszowie ul. Wrześniowa 2 35-303 Rzeszów NIP:
-            8130134393
-          </p>
+          <TextWrapper>
+            <ContactPharagraph>
+              Obsługujemy Klientów na terenie Rzeszów oraz bliskie okolice wokół
+              miasta.<br/>Zachęcamy do skorzystania z naszej oferty.
+            </ContactPharagraph>
+            <TelephonePharagraph>
+              <FavItem>Kontakt</FavItem><br/> <BoldText>+48601487829 <br/> +48178500092 <br/> edbud_rzeszow@poczta.onet.pl</BoldText>
+              <InfoPharagraph><FavItem>Info</FavItem><br/> <strong>ZRB EDBUD w Rzeszowie</strong><br/> ul. Wrześniowa 2 35-303 Rzeszów NIP:
+              8130134393</InfoPharagraph>
+            </TelephonePharagraph>
           </TextWrapper>
         </>
       }
