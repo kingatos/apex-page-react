@@ -159,7 +159,7 @@ export const SectionQuoteTestimonials = styled.div`
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr) [3];
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
