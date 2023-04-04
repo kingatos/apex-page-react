@@ -13,7 +13,7 @@ const ContactPage = () => (
         <>
           <TextWrapper>
             <ContactPharagraph>
-              Obsługujemy Klientów na terenie Rzeszów oraz bliskie okolice wokół
+              Obsługujemy Klientów na terenie Rzeszowa oraz bliskich okolic wokół
               miasta.<br/>Zachęcamy do skorzystania z naszej oferty.
             </ContactPharagraph>
             <TelephonePharagraph>
