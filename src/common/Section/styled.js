@@ -14,7 +14,6 @@ export const SectionBody = styled.div`
   position: relative;
   animation-name: slide-in-right;
   animation-duration: 1s;
-  animation-delay: 0.3s;
   animation-fill-mode: forwards;
 
   @keyframes slide-in-right {
