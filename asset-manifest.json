@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/edbud-page/static/js/main.614c1430.js",
+    "static/js/787.55aa0266.chunk.js": "/edbud-page/static/js/787.55aa0266.chunk.js",
+    "static/media/plytkapodlogowa.png": "/edbud-page/static/media/plytkapodlogowa.50cdb5a37116c93c174f.png",
+    "static/media/cienie.png": "/edbud-page/static/media/cienie.086f82adf9af5e3edcea.png",
+    "static/media/totalny remont.jpg": "/edbud-page/static/media/totalny remont.64256df2e5ce67d53ef2.jpg",
+    "index.html": "/edbud-page/index.html",
+    "main.614c1430.js.map": "/edbud-page/static/js/main.614c1430.js.map",
+    "787.55aa0266.chunk.js.map": "/edbud-page/static/js/787.55aa0266.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.614c1430.js"
+  ]
+}
