@@ -25,12 +25,17 @@ export const StyledInput = styled.input`
 
 export const StyledButton = styled.button`
   width: 25%;
-  padding: 15px;
+  padding: 10px;
   border: none;
   background-color: ${({ theme }) => theme.color.black};
   color: ${({ theme }) => theme.color.white};
   cursor: pointer;
   transition: 0.5s;
+
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+      width: 100%;
+  }
 
   &:hover {
     background-color: ${({ theme }) => theme.color.rollingStone};
@@ -52,6 +57,10 @@ export const StyledPlace = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 30px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    text-align:center;
+  }
 `;
 
 export const StyledButtonPhone = styled.a`
@@ -62,6 +71,10 @@ export const StyledButtonPhone = styled.a`
   background-color: ${({ theme }) => theme.color.black};
   color: ${({ theme }) => theme.color.white};
   transition: 0.5s;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    align-items: center;
+  }
 
   &:hover {
     background-color: ${({ theme }) => theme.color.rollingStone};

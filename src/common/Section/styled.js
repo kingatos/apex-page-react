@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Wrapper = styled.section`
   padding: 50px;
   background: ${({ theme }) => theme.color.white};
-  box-shadow: 0 0 5px ${({ theme }) => theme.color.alto};
 `;
 
 export const SectionBody = styled.div`
@@ -12,6 +11,21 @@ export const SectionBody = styled.div`
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+  position: relative;
+  animation-name: slide-in-right;
+  animation-duration: 1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+
+  @keyframes slide-in-right {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+    
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     display: flex;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import imageBackground1 from "./plytkapodlogowa.jpg";
-import imageBackground2 from "./pracawre.jpg";
+import imageBackground1 from "./plytkapodlogowa.png";
+import imageBackground2 from "./cienie.png";
 import imageBackground3 from "./totalny remont.jpg";
 import imageQuote from "./quote.png";
 
@@ -11,8 +11,6 @@ export const WrapperSectionGreyHomePage = styled.section`
   background-position: center;
   background-size: cover;
   animation: slideBackground 10s ease-in-out infinite;
-  transition: opacity 0.5s ease-in-out;
-  opacity: 0.6;
 
   @keyframes slideBackground {
     0% {
@@ -77,6 +75,20 @@ export const TextWrapperHomePage = styled.div`
     font-size: 18px;
     line-height: 1.5;
     margin: 0 auto;
+    position: relative;
+    animation-name: slide-in-right;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+
+    @keyframes slide-in-right {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
@@ -89,7 +101,6 @@ export const TextWrapperHomePage = styled.div`
 export const WrapperSectionHomePage = styled.section`
   padding: 50px;
   background: ${({ theme }) => theme.color.white};
-  box-shadow: 0 0 5px ${({ theme }) => theme.color.alto};
 `;
 
 export const SectionBodyHomePage = styled.div`
@@ -165,7 +176,19 @@ export const SectionQuoteArcicle = styled.article`
   line-height: 1.7;
   text-align: center;
   position: relative;
-  
+  animation-name: slide-in-right;
+  animation-duration: 1s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+
+  @keyframes slide-in-right {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
 
   ::after {
     content: "";
