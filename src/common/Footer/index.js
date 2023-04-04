@@ -37,10 +37,10 @@ const Footer = () => {
       </StyledForm>
       <StyledPlace>
         <StyledButtonPhone href="tel:+48601487829">
-          📞+48601487829
+          📞601487829
         </StyledButtonPhone>
         <StyledButtonPhone href="tel:+48178500092">
-          📞+48178500092
+          📞178500092
         </StyledButtonPhone>
       </StyledPlace>
     </StyledFooter>
