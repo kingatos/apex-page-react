@@ -10,7 +10,6 @@ import ContactPage from "./features/contact/ContactPage";
 const App = () => (
 <HashRouter>
   <nav>
-    <Menu />
     <Switch> 
       <Route path="/o-firmie">
         <AboutPage />
@@ -28,6 +27,7 @@ const App = () => (
         <HomePage />
       </Route>
     </Switch>
+    <Menu />
     <Footer />
   </nav>
 </HashRouter>
