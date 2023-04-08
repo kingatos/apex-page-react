@@ -15,6 +15,7 @@ import {
   SectionQuoteContent,
 } from "./styled";
 import Button from "./Button";
+import PhotoShadow from "../.././images/cienie.jpg";
 
 const HomePage = () => (
   <StyledContainer>
@@ -84,7 +85,7 @@ const HomePage = () => (
     <WrapperSectionHomePage>
       <SectionBodyHomePage>
         <ImageWrapperHomePage>
-          <img src="./images/cienie.jpg" alt="efekt" />
+          <img src={PhotoShadow} alt="efekt" />
         </ImageWrapperHomePage>
         <TextWrapperHomePage>
           <h2>Solidność, doświadczenie, profesjonalizm</h2>
