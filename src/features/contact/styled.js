@@ -5,7 +5,7 @@ padding: 20px;
 text-align: center;
 `;
 
-export const TelephonePharagraph = styled.p`
+export const TelephonePharagraph = styled.div`
 padding: 20px;
 text-align: center;
 `;
