@@ -3,6 +3,9 @@ import Header from "../../common/Header/index";
 import Section from "../../common/Section/index";
 import SectionGray from "../../common/SectionGray";
 import { ImageWrapper, TextWrapper } from "../../common/Section/styled";
+import PhotoBuild from "../.././images/wiertarka.jpg"; 
+import PhotoWirr from "../.././images/gladz.jpg";
+import Workaway from "../.././images/rusztowanie.jpg";
 
 const AboutPage = () => (
   <StyledContainer>
@@ -12,7 +15,7 @@ const AboutPage = () => (
         <>
           <ImageWrapper>
             <img
-              src="./images/wiertarka.jpg"
+              src={PhotoBuild}
               alt="wiercenie ściany"
               width="500"
               height="500"
@@ -50,7 +53,7 @@ const AboutPage = () => (
           </TextWrapper>
           <ImageWrapper>
             <img
-              src="./images/gladz.jpg"
+              src={PhotoWirr}
               alt="rusztowanie"
               width="500"
               height="500"
@@ -63,7 +66,7 @@ const AboutPage = () => (
       body={
         <>
           <ImageWrapper>
-            <img src="./images/pracawre.jpg" alt="wiercenie ściany" />
+            <img src={Workaway} alt="wiercenie ściany" />
           </ImageWrapper>
           <TextWrapper>
             <h2>Twoje marzenia, nasza pasja</h2>

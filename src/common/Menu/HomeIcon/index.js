@@ -1,8 +1,9 @@
 import { StyledHomeIcon } from "./styled";
+import Icon from "../../.././images/ZRB EDBUD_1.png";
 
 const HomeIcon = () => {
     return (
-      <StyledHomeIcon src="./images/ZRB EDBUD_1.png" alt="home" />
+      <StyledHomeIcon src={Icon} alt="home" />
       );
   };
   
