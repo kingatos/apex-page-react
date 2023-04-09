@@ -2,6 +2,7 @@ import { StyledContainer } from "../../common/Container/styled";
 import { ImageWrapper, TextWrapper } from "../../common/Section/styled";
 import Header from "../../common/Header";
 import Section from "../../common/Section";
+import PhotoEffect from "../.././images/cienie.jpg";
 
 
 const OfferPage = () => (
@@ -12,7 +13,7 @@ const OfferPage = () => (
       {
         <>
       <ImageWrapper>
-        <img src="./images/cienie.jpg" alt="efekt" />
+        <img src={PhotoEffect} alt="efekt" />
       </ImageWrapper>
           <TextWrapper>
             <ul>
