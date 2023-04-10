@@ -4,7 +4,7 @@ import {
   ItemMenu,
   WrapperBurgerImage,
   ImageBurgerButton,
-  StyledMobileMenu, 
+  StyledMobileMenu,
   ItemMobileMenu,
   StyledMobileNavLink,
 } from "./styled";
@@ -55,9 +55,6 @@ const Menu = () => {
   if (isMobile) {
     return (
       <WrapperBurgerImage>
-        <ImageBurgerButton onClick={handleClick}>
-          <img src={burgerImage} alt="button" />
-        </ImageBurgerButton>
         <ItemMenu>
           <StyledNavLink to="/">
             <HomeIcon />
@@ -69,7 +66,9 @@ const Menu = () => {
               <StyledMobileNavLink to="/o-firmie">O firmie</StyledMobileNavLink>
             </ItemMobileMenu>
             <ItemMobileMenu>
-              <StyledMobileNavLink to="/realizacje">Realizacje</StyledMobileNavLink>
+              <StyledMobileNavLink to="/realizacje">
+                Realizacje
+              </StyledMobileNavLink>
             </ItemMobileMenu>
             <ItemMobileMenu>
               <StyledMobileNavLink to="/oferta">Oferta</StyledMobileNavLink>
@@ -79,6 +78,9 @@ const Menu = () => {
             </ItemMobileMenu>
           </StyledMobileMenu>
         )}
+        <ImageBurgerButton onClick={handleClick}>
+          <img src={burgerImage} alt="button" />
+        </ImageBurgerButton>
       </WrapperBurgerImage>
     );
   }
