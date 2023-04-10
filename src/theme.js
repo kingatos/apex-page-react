@@ -11,7 +11,7 @@ export const theme = {
         dixie: "#e08e16",
     },
     breakpoint: {
-        mobileMax: 767,
+        mobileMax: 768,
         mobileWidth: 320,
     },
 }
