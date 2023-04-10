@@ -1,15 +1,35 @@
 {
   "files": {
-    "main.js": "/edbud-page/static/js/main.e3a5386d.js",
+    "main.js": "/edbud-page/static/js/main.f4f1fe9c.js",
     "static/js/787.55aa0266.chunk.js": "/edbud-page/static/js/787.55aa0266.chunk.js",
+    "static/media/wiertarka.jpg": "/edbud-page/static/media/wiertarka.9f10798d894c06d0188d.jpg",
     "static/media/plytkapodlogowa.png": "/edbud-page/static/media/plytkapodlogowa.50cdb5a37116c93c174f.png",
+    "static/media/gladz.jpg": "/edbud-page/static/media/gladz.4a12dd64f511c8aba23b.jpg",
     "static/media/cienie.png": "/edbud-page/static/media/cienie.086f82adf9af5e3edcea.png",
+    "static/media/cienie.jpg": "/edbud-page/static/media/cienie.6c82d33734b6a3a510f7.jpg",
+    "static/media/photo16.jpg": "/edbud-page/static/media/photo16.8577702730961a355cc8.jpg",
+    "static/media/photo.jpg": "/edbud-page/static/media/photo.1c6c75442eafdacb3789.jpg",
+    "static/media/rusztowanie.jpg": "/edbud-page/static/media/rusztowanie.0e1538dbd914d53a3d08.jpg",
     "static/media/totalny remont.jpg": "/edbud-page/static/media/totalny remont.64256df2e5ce67d53ef2.jpg",
+    "static/media/photo2.jpg": "/edbud-page/static/media/photo2.d989d6c5345472f4e1d3.jpg",
+    "static/media/photo8.jpg": "/edbud-page/static/media/photo8.cd13193d924ebe5542bf.jpg",
+    "static/media/photo10.jpg": "/edbud-page/static/media/photo10.53434bd4e094db0fe6e8.jpg",
+    "static/media/photo11.jpg": "/edbud-page/static/media/photo11.0850952844a14f20ab7c.jpg",
+    "static/media/photo5.jpg": "/edbud-page/static/media/photo5.24df03146babe9850a25.jpg",
+    "static/media/photo15.jpg": "/edbud-page/static/media/photo15.7f438b515f767f92e6a5.jpg",
+    "static/media/photo7.jpg": "/edbud-page/static/media/photo7.c9965b3b3ef823c13536.jpg",
+    "static/media/photo13.jpg": "/edbud-page/static/media/photo13.77d5925cc877d6e90f53.jpg",
+    "static/media/photo6.jpg": "/edbud-page/static/media/photo6.868ffb8c0332913f4754.jpg",
+    "static/media/photo14.jpg": "/edbud-page/static/media/photo14.8ec69e1c23bf98fcb833.jpg",
+    "static/media/photo9.jpg": "/edbud-page/static/media/photo9.14b3cc245086d1326f6c.jpg",
+    "static/media/photo12.jpg": "/edbud-page/static/media/photo12.2e8c29693f139adabf65.jpg",
+    "static/media/photo3.jpg": "/edbud-page/static/media/photo3.6b2046d9c23b84667f29.jpg",
+    "static/media/photo4.jpg": "/edbud-page/static/media/photo4.422b66d0eaf13d75f972.jpg",
     "index.html": "/edbud-page/index.html",
-    "main.e3a5386d.js.map": "/edbud-page/static/js/main.e3a5386d.js.map",
+    "main.f4f1fe9c.js.map": "/edbud-page/static/js/main.f4f1fe9c.js.map",
     "787.55aa0266.chunk.js.map": "/edbud-page/static/js/787.55aa0266.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.e3a5386d.js"
+    "static/js/main.f4f1fe9c.js"
   ]
 }
