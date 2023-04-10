@@ -8,6 +8,7 @@ text-align: center;
 export const TelephonePharagraph = styled.div`
 padding: 20px;
 text-align: center;
+margin: 0 auto;
 `;
 
 export const BoldText = styled.strong`

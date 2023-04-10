@@ -6,6 +6,7 @@ import imageQuote from "./quote.png";
 
 export const WrapperSectionGreyHomePage = styled.section`
   padding: 100px 100px;
+  height: 730px;
   box-shadow: 0 0 5px ${({ theme }) => theme.color.alto};
   background-repeat: no-repeat;
   background-position: center;
@@ -25,6 +26,11 @@ export const WrapperSectionGreyHomePage = styled.section`
     5% {
       background-image: url("${imageBackground1}");
     }
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    padding: 100px 20px 5px;
+    height: auto;
   }
 `;
 
@@ -59,7 +65,7 @@ export const ImageWrapperHomePage = styled.div`
 
 export const TextWrapperHomePage = styled.div`
   flex: 1;
-  padding: 0 50px;
+  padding: 50px 50px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
