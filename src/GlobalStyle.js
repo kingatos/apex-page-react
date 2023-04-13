@@ -11,8 +11,8 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0 auto;
-    padding: 20px 0px 0px;
+    margin: 0px;
+    padding: 0px;
     background-color: ${({ theme }) => theme.color.white};
     word-break: break-word;
     overflow-wrap: break-word;
