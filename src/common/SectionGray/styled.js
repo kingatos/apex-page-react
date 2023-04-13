@@ -18,6 +18,7 @@ export const SectionGrayBody = styled.div`
     flex-wrap: wrap;
     flex-direction: column-reverse;
     padding: 0px;
+    margin: 0px auto;
   }
 `;
 
