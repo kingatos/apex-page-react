@@ -1,15 +1,14 @@
 import {
+  Container,
+  StyledNavLogo,
+  WrapperNavigationRow,
+  ImageBurgerButtonPhoto,
+  ImageBurgerButton,
   StyledMenu,
   StyledNavLink,
-  ItemMenu,
-  WrapperBurgerImage,
-  ImageBurgerButton,
-  StyledMobileMenu,
-  ItemMobileMenu,
-  StyledMobileNavLink,
+  Navigation
 } from "./styled";
 import { useEffect, useState } from "react";
-import { useMediaQuery } from "react-responsive";
 import HomeIcon from ".././Menu/HomeIcon/index";
 import burgerImage from "./menu-burger.png";
 
@@ -17,8 +16,6 @@ const Menu = () => {
   const [menuHeight, setMenuHeight] = useState(100);
   const expandedHeight = 100;
   const [isOpen, setIsOpen] = useState(false);
-  const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
-  const isTablet = useMediaQuery({ query: "(min-width: 768px)" });
 
   useEffect(() => {
     const handleScroll = () => {
@@ -52,63 +49,26 @@ const Menu = () => {
     setIsOpen(!isOpen);
   };
 
-  if (isMobile) {
-    return (
-      <WrapperBurgerImage>
-        <ItemMenu>
-          <StyledNavLink to="/">
+  return (
+    <Navigation menuHeight={menuHeight} expandedHeight={expandedHeight}>
+      <Container>
+        <WrapperNavigationRow>
+          <StyledNavLogo to="/">
             <HomeIcon />
-          </StyledNavLink>
-        </ItemMenu>
-        {isOpen && (
-          <StyledMobileMenu>
-            <ItemMobileMenu>
-              <StyledMobileNavLink to="/o-firmie">O firmie</StyledMobileNavLink>
-            </ItemMobileMenu>
-            <ItemMobileMenu>
-              <StyledMobileNavLink to="/realizacje">
-                Realizacje
-              </StyledMobileNavLink>
-            </ItemMobileMenu>
-            <ItemMobileMenu>
-              <StyledMobileNavLink to="/oferta">Oferta</StyledMobileNavLink>
-            </ItemMobileMenu>
-            <ItemMobileMenu>
-              <StyledMobileNavLink to="/kontakt">Kontakt</StyledMobileNavLink>
-            </ItemMobileMenu>
-          </StyledMobileMenu>
-        )}
-        <ImageBurgerButton onClick={handleClick}>
-          <img src={burgerImage} alt="button" />
-        </ImageBurgerButton>
-      </WrapperBurgerImage>
-    );
-  }
-
-  if (isTablet) {
-    return (
-      <WrapperBurgerImage>
-        <StyledMenu menuHeight={menuHeight} expandedHeight={expandedHeight}>
-          <ItemMenu>
-            <StyledNavLink to="/">
-              <HomeIcon />
-            </StyledNavLink>
-          </ItemMenu>
-          <ItemMenu>
+          </StyledNavLogo>
+          <StyledMenu>
             <StyledNavLink to="/o-firmie">O firmie</StyledNavLink>
-          </ItemMenu>
-          <ItemMenu>
             <StyledNavLink to="/realizacje">Realizacje</StyledNavLink>
-          </ItemMenu>
-          <ItemMenu>
             <StyledNavLink to="/oferta">Oferta</StyledNavLink>
-          </ItemMenu>
-          <ItemMenu>
             <StyledNavLink to="/kontakt">Kontakt</StyledNavLink>
-          </ItemMenu>
-        </StyledMenu>
-      </WrapperBurgerImage>
-    );
-  }
+          </StyledMenu>
+          <ImageBurgerButton onClick={handleClick}>
+            <ImageBurgerButtonPhoto src={burgerImage} alt="button" />
+          </ImageBurgerButton>
+        </WrapperNavigationRow>
+      </Container>
+    </Navigation>
+  );
 };
+
 export default Menu;
