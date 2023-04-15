@@ -26,6 +26,7 @@ export const Navigation = styled.nav`
   z-index: 1;
   transition: height 0.5s;
 
+
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
   padding: 0;
   height: 80px;
@@ -62,6 +63,7 @@ export const ImageBurgerButton = styled.button`
   display: none;
   outline: none;
   z-index: 2;
+  cursor: pointer;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileHigh}px) {
     display: block;
@@ -106,8 +108,6 @@ export const StyledMenu = styled.div`
     opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
   }
 `;
 
