@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   Container,
   StyledNavLogo,
@@ -6,63 +7,43 @@ import {
   ImageBurgerButton,
   StyledMenu,
   StyledNavLink,
-  Navigation
+  Navigation,
 } from "./styled";
-import { useEffect, useState } from "react";
 import HomeIcon from ".././Menu/HomeIcon/index";
 import burgerImage from "./menu-burger.png";
 
 const Menu = () => {
-  const [menuHeight, setMenuHeight] = useState(100);
-  const expandedHeight = 100;
-  const [isOpen, setIsOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setMenuHeight(50);
-      } else {
-        setMenuHeight(100);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  useEffect(() => {
-    const closeMenu = () => {
-      if (isOpen) {
-        setIsOpen(false);
-      }
-    };
-
-    window.addEventListener("click", closeMenu);
-    return () => window.removeEventListener("click", closeMenu);
-  }, [isOpen]);
-
-  const handleClick = (event) => {
-    event.stopPropagation();
-    setIsOpen(!isOpen);
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <Navigation menuHeight={menuHeight} expandedHeight={expandedHeight}>
+    <Navigation>
       <Container>
         <WrapperNavigationRow>
           <StyledNavLogo to="/">
             <HomeIcon />
           </StyledNavLogo>
-          <StyledMenu>
-            <StyledNavLink to="/o-firmie">O firmie</StyledNavLink>
-            <StyledNavLink to="/realizacje">Realizacje</StyledNavLink>
-            <StyledNavLink to="/oferta">Oferta</StyledNavLink>
-            <StyledNavLink to="/kontakt">Kontakt</StyledNavLink>
+          <StyledMenu isOpen={isMenuOpen}>
+            <StyledNavLink to="/o-firmie" onClick={() => setIsMenuOpen(false)}>
+              O firmie
+            </StyledNavLink>
+            <StyledNavLink
+              to="/realizacje"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Realizacje
+            </StyledNavLink>
+            <StyledNavLink to="/oferta" onClick={() => setIsMenuOpen(false)}>
+              Oferta
+            </StyledNavLink>
+            <StyledNavLink to="/kontakt" onClick={() => setIsMenuOpen(false)}>
+              Kontakt
+            </StyledNavLink>
           </StyledMenu>
-          <ImageBurgerButton onClick={handleClick}>
+          <ImageBurgerButton onClick={handleMenuToggle}>
             <ImageBurgerButtonPhoto src={burgerImage} alt="button" />
           </ImageBurgerButton>
         </WrapperNavigationRow>
