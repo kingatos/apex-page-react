@@ -1,4 +1,4 @@
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Menu from "./common/Menu/index";
 import AboutPage from "./features/about/AboutPage";
 import HomePage from "./features/home/HomePage";
@@ -9,7 +9,7 @@ import ContactPage from "./features/contact/ContactPage";
 
 
 const App = () => (
-  <HashRouter>
+  <BrowserRouter>
       <Menu />
       <Switch>
         <Route path="/o-firmie">
@@ -29,7 +29,7 @@ const App = () => (
         </Route>
       </Switch>
       <Footer />
-  </HashRouter>
+  </BrowserRouter>
 );
 
 export default App;
