@@ -11,7 +11,8 @@ export const WrapperSectionGreyHomePage = styled.section`
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  animation: slideBackground 10s ease-in-out infinite;
+  animation: 10s cubic-bezier(0.39, 0.58, 0.57, 1) 1s infinite normal none running slideBackground;
+
 
   @keyframes slideBackground {
     0% {
@@ -84,7 +85,6 @@ export const TextWrapperHomePage = styled.div`
     position: relative;
     animation-name: slide-in-right;
     animation-duration: 1s;
-    animation-delay: 0.3s;
     animation-fill-mode: forwards;
 
     @keyframes slide-in-right {
@@ -164,12 +164,12 @@ export const SectionQuoteTestimonials = styled.div`
   margin-top: 20px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [3];
+  -ms-grid-columns: (1fr);
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    -ms-grid-column: (1fr) [1];
+    -ms-grid-column: (1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 `;

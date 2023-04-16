@@ -11,7 +11,6 @@ export const SectionPhotos = styled.section`
 export const ContainerPhotos = styled.div`
   width: 100%;
   margin: auto;
-  max-width: 1240px;
   padding: 0 30px;
   box-sizing: border-box;
 

@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
-
 export const StyledNavLogo = styled(NavLink)`
   text-decoration: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  z-index: 2;
 
   &.active {
     -webkit-filter: brightness(125%);
@@ -15,22 +15,20 @@ export const StyledNavLogo = styled(NavLink)`
 
 export const Navigation = styled.nav`
   position: -webkit-sticky;
-  position: fixed;
-  left: 0;
-  right: 0;
+  position: sticky;
   top: 0;
+  left: 0;
   width: 100%;
-  background:${({ theme }) => theme.color.white};
+  background: ${({ theme }) => theme.color.white};
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   z-index: 1;
   transition: height 0.5s;
 
-
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-  padding: 0;
-  height: 80px;
-  };
+    padding: 0;
+    height: 80px;
+  } ;
 `;
 
 export const WrapperNavigationRow = styled.div`
@@ -45,7 +43,7 @@ export const WrapperNavigationRow = styled.div`
   justify-content: space-between;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-  padding: 12px;
+    padding: 12px;
   }
 `;
 
@@ -87,7 +85,6 @@ export const StyledMenu = styled.div`
   display: flex;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileHigh}px) {
-    pointer-events: none;
     position: fixed;
     background: white;
     text-align: center;
@@ -126,14 +123,13 @@ export const StyledNavLink = styled(NavLink)`
     color: ${({ theme }) => theme.color.alto};
   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobileHighMax}px) {
-    font-size: 15px;
-    padding: 10px;
-  }
-
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileHigh}px) {
-    padding: 10px;
     font-size: 22px;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 `;
