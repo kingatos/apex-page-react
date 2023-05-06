@@ -7,28 +7,27 @@ import OfferPage from "./features/offer/OfferPage";
 import Realizations from "./features/realizations/RealizationsPage";
 import ContactPage from "./features/contact/ContactPage";
 
-
 const App = () => (
   <BrowserRouter>
-      <Menu />
-      <Switch>
-        <Route path="/o-firmie">
-          <AboutPage />
-        </Route>
-        <Route path="/realizacje">
-          <Realizations />
-        </Route>
-        <Route path="/oferta">
-          <OfferPage />
-        </Route>
-        <Route path="/kontakt">
-          <ContactPage />
-        </Route>
-        <Route path="/">
-          <HomePage />
-        </Route>
-      </Switch>
-      <Footer />
+    <Menu />
+    <Switch>
+      <Route path="/o-firmie">
+        <AboutPage />
+      </Route>
+      <Route path="/realizacje">
+        <Realizations />
+      </Route>
+      <Route path="/oferta">
+        <OfferPage />
+      </Route>
+      <Route path="/kontakt">
+        <ContactPage />
+      </Route>
+      <Route path="/">
+        <HomePage />
+      </Route>
+    </Switch>
+    <Footer />
   </BrowserRouter>
 );
 

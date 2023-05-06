@@ -28,7 +28,7 @@ export const Navigation = styled.nav`
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     padding: 0;
     height: 80px;
-  } ;
+  }
 `;
 
 export const WrapperNavigationRow = styled.div`
