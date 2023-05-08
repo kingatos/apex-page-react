@@ -6,6 +6,8 @@ export const StyledFooter = styled.footer`
   display: flex;
   justify-content: center;
   gap: 80px;
+  word-break: break-word;
+  overflow-wrap: break-word;
 `;
 
 export const StyledForm = styled.form`
