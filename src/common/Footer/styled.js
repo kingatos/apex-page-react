@@ -34,9 +34,8 @@ export const StyledButton = styled.button`
   cursor: pointer;
   transition: 0.5s;
 
-
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-      width: 100%;
+    width: 100%;
   }
 
   &:hover {
@@ -61,7 +60,7 @@ export const StyledPlace = styled.div`
   gap: 30px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    text-align:center;
+    text-align: center;
   }
 `;
 
