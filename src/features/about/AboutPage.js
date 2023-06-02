@@ -3,7 +3,7 @@ import Header from "../../common/Header/index";
 import Section from "../../common/Section/index";
 import SectionGray from "../../common/SectionGray";
 import { ImageWrapper, TextWrapper } from "../../common/Section/styled";
-import PhotoBuild from "../.././images/wiertarka.jpg"; 
+import PhotoBuild from "../.././images/wiertarka.jpg";
 import PhotoWirr from "../.././images/gladz.jpg";
 import Workaway from "../.././images/rusztowanie.jpg";
 
@@ -52,12 +52,7 @@ const AboutPage = () => (
             </p>
           </TextWrapper>
           <ImageWrapper>
-            <img
-              src={PhotoWirr}
-              alt="rusztowanie"
-              width="500"
-              height="500"
-            />
+            <img src={PhotoWirr} alt="rusztowanie" width="500" height="500" />
           </ImageWrapper>
         </>
       }

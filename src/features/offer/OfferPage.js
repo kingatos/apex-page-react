@@ -4,17 +4,15 @@ import Header from "../../common/Header";
 import Section from "../../common/Section";
 import PhotoEffect from "../.././images/cienie.jpg";
 
-
 const OfferPage = () => (
   <StyledContainer>
     <Header title="Oferta" />
     <Section
-    body=
-      {
+      body={
         <>
-      <ImageWrapper>
-        <img src={PhotoEffect} alt="efekt" />
-      </ImageWrapper>
+          <ImageWrapper>
+            <img src={PhotoEffect} alt="efekt" />
+          </ImageWrapper>
           <TextWrapper>
             <ul>
               <h3>Usługi budowlane:</h3>
