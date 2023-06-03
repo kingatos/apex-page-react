@@ -2,7 +2,13 @@ import { StyledContainer } from "../../common/Container/styled";
 import Header from "../../common/Header";
 import Section from "../../common/Section";
 import { TextWrapper, ImageWrapper } from "../../common/Section/styled";
-import { SectionPhotos, ContainerPhotos, StyledPhotos, PhotosItem, StyledPhoto } from "./styled";
+import {
+  SectionPhotos,
+  ContainerPhotos,
+  StyledPhotos,
+  PhotosItem,
+  StyledPhoto,
+} from "./styled";
 import PhotoEffect from "../.././images/cienie.jpg";
 import Photo from "../.././photos/photo.jpg";
 import Photo4 from "../.././photos/photo4.jpg";
@@ -47,80 +53,80 @@ const Realizations = () => (
 
     <SectionPhotos>
       <ContainerPhotos>
-      <StyledPhotos>
-            <PhotosItem>
+        <StyledPhotos>
+          <PhotosItem>
             <StyledPhoto src={Photo} alt="efekt" />
-            </PhotosItem>
+          </PhotosItem>
 
-            <PhotosItem>
-            <StyledPhoto src={Photo4}  alt="efekt" />
-            </PhotosItem>
+          <PhotosItem>
+            <StyledPhoto src={Photo4} alt="efekt" />
+          </PhotosItem>
 
-            <PhotosItem>
+          <PhotosItem>
             <StyledPhoto src={Photo2} alt="efekt" />
-            </PhotosItem>
+          </PhotosItem>
 
-            <PhotosItem>
-            <StyledPhoto src={Photo6}  alt="efekt" />
-            </PhotosItem>
+          <PhotosItem>
+            <StyledPhoto src={Photo6} alt="efekt" />
+          </PhotosItem>
 
-            <PhotosItem>
+          <PhotosItem>
             <StyledPhoto src={Photo3} alt="efekt" />
-            </PhotosItem>
+          </PhotosItem>
 
-            <PhotosItem>
-            <StyledPhoto src={Photo5}  alt="efekt" />
-            </PhotosItem>
+          <PhotosItem>
+            <StyledPhoto src={Photo5} alt="efekt" />
+          </PhotosItem>
 
-            <PhotosItem>
-            <StyledPhoto src={Photo4}  alt="efekt" />
-            </PhotosItem>
+          <PhotosItem>
+            <StyledPhoto src={Photo4} alt="efekt" />
+          </PhotosItem>
 
-            <PhotosItem>
+          <PhotosItem>
             <StyledPhoto src={Photo7} alt="efekt" />
-            </PhotosItem>
+          </PhotosItem>
 
-            <PhotosItem>
-            <StyledPhoto src={Photo8}  alt="efekt" />
-            </PhotosItem>
+          <PhotosItem>
+            <StyledPhoto src={Photo8} alt="efekt" />
+          </PhotosItem>
 
-            <PhotosItem>
-            <StyledPhoto src={Photo9}   alt="efekt" />
-            </PhotosItem>
+          <PhotosItem>
+            <StyledPhoto src={Photo9} alt="efekt" />
+          </PhotosItem>
 
-            <PhotosItem>
-            <StyledPhoto src={Photo10}  alt="efekt" />
-            </PhotosItem>
+          <PhotosItem>
+            <StyledPhoto src={Photo10} alt="efekt" />
+          </PhotosItem>
 
-            <PhotosItem>
-            <StyledPhoto src={Photo11}  alt="efekt" />
-            </PhotosItem>
+          <PhotosItem>
+            <StyledPhoto src={Photo11} alt="efekt" />
+          </PhotosItem>
 
-            <PhotosItem>
-            <StyledPhoto src={Photo12}  alt="efekt" />
-            </PhotosItem>
+          <PhotosItem>
+            <StyledPhoto src={Photo12} alt="efekt" />
+          </PhotosItem>
 
-            <PhotosItem>
-            <StyledPhoto src={Photo13}  alt="efekt" />
-            </PhotosItem>
+          <PhotosItem>
+            <StyledPhoto src={Photo13} alt="efekt" />
+          </PhotosItem>
 
-            <PhotosItem>
-            <StyledPhoto src={Photo14}  alt="efekt" />
-            </PhotosItem>
+          <PhotosItem>
+            <StyledPhoto src={Photo14} alt="efekt" />
+          </PhotosItem>
 
-            <PhotosItem>
-            <StyledPhoto src={Photo15}  alt="efekt" />
-            </PhotosItem>
+          <PhotosItem>
+            <StyledPhoto src={Photo15} alt="efekt" />
+          </PhotosItem>
 
-            <PhotosItem>
-            <StyledPhoto src={Photo16}  alt="efekt" />
-            </PhotosItem>
+          <PhotosItem>
+            <StyledPhoto src={Photo16} alt="efekt" />
+          </PhotosItem>
 
-            <PhotosItem>
-            <StyledPhoto src={Photo11}  alt="efekt" />
-            </PhotosItem>
+          <PhotosItem>
+            <StyledPhoto src={Photo11} alt="efekt" />
+          </PhotosItem>
         </StyledPhotos>
-        </ContainerPhotos>
+      </ContainerPhotos>
     </SectionPhotos>
   </StyledContainer>
 );

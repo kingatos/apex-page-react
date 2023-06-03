@@ -31,9 +31,7 @@ const Footer = () => {
           value={email}
           onChange={(event) => setEmail(event.target.value)}
         />
-        <StyledButton type="submit">
-          Wyślij
-        </StyledButton>
+        <StyledButton type="submit">Wyślij</StyledButton>
       </StyledForm>
       <StyledPlace>
         <StyledButtonPhone href="tel:+48601487829">

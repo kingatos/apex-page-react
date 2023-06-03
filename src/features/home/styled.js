@@ -11,8 +11,8 @@ export const WrapperSectionGreyHomePage = styled.section`
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  animation: 10s cubic-bezier(0.39, 0.58, 0.57, 1) 0s infinite normal none running slideBackground;
-
+  animation: 10s cubic-bezier(0.39, 0.58, 0.57, 1) 0s infinite normal none
+    running slideBackground;
 
   @keyframes slideBackground {
     0% {
