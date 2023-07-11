@@ -79,7 +79,7 @@ export const StyledButtonPhone = styled.a`
 
   &:hover {
     background-color: ${({ theme }) => theme.color.rollingStone};
-    transform: scale(1.05);
+    transform: scale(1.20);
   }
 
   &:active {
