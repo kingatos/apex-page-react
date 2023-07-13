@@ -26,7 +26,7 @@ const HomePage = () => (
             <h2>Budujemy dla Ciebie, z pasją i zaangażowaniem</h2>
             <p>
               <strong>Zakład Remontowo-Budowlany EDBUD</strong> to firma z ponad
-              30-letnim doświadczeniem na rynku budowlanym. Zajmujemy się
+              30-letnim doświadczeniem na rynku budowlanym. <br/>Zajmujemy się
               kompleksowymi usługami remontowo-budowlanymi, w tym robotami
               związanymi z wykończeniem budynków mieszkalnych i niemieszkalnych,
               rozbiórką i burzeniem obiektów budowlanych, instalacjami
