@@ -24,7 +24,7 @@ const AboutPage = () => (
           <TextWrapper>
             <h2>Solidność, doświadczenie, profesjonalizm</h2>
             <p>
-              Zakład Remontowo-Budowlany EDBUD to firma z wieloletnim
+              <strong>Zakład Remontowo-Budowlany EDBUD</strong> to firma z wieloletnim
               doświadczeniem na rynku budowlanym, kompleksowo realizująca
               projekty remontowe oraz modernizacyjne. Nasze usługi obejmują
               m.in. remonty mieszkań, domów jednorodzinnych oraz lokali
