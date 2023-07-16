@@ -28,7 +28,7 @@ const AboutPage = () => (
               doświadczeniem na rynku budowlanym, kompleksowo realizująca
               projekty remontowe oraz modernizacyjne. Nasze usługi obejmują
               m.in. remonty mieszkań, domów jednorodzinnych oraz lokali
-              użytkowych, a także modernizacje obiektów przemysłowych. Działamy
+              użytkowych, a także modernizacje obiektów przemysłowych. <br/>Działamy
               szybko i sprawnie, zapewniając najwyższą jakość wykonywanych prac
               oraz konkurencyjne ceny. Zaufaj nam i przekonaj się, że remonty
               mogą być łatwe i przyjemne!
