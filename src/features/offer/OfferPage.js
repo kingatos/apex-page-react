@@ -15,7 +15,7 @@ const OfferPage = () => (
           </ImageWrapper>
           <TextWrapper>
             <ul>
-              <h3>Usługi budowlane:</h3>
+              <h3><strong>Usługi budowlane:</strong></h3>
               <ul>
                 <li>modernizacja i przebudowa istniejących budynków</li>
                 <li>rozbiórka i burzenie obiektów budowlanych</li>
@@ -26,7 +26,7 @@ const OfferPage = () => (
                 </li>
                 <li>wykonanie konstrukcji i pokryć dachowych</li>
               </ul>
-              <h3>Usługi wykończeniowe:</h3>
+              <h3><strong>Usługi wykończeniowe:</strong></h3>
               <ul>
                 <li>tynkowanie</li>
                 <li>zakładanie stolarki budowlanej</li>
@@ -34,7 +34,7 @@ const OfferPage = () => (
                 <li>malowanie i szklenie</li>
                 <li>wykonanie pozostałych robót budowlanych wykończeniowych</li>
               </ul>
-              <h3>Doradztwo techniczne:</h3>
+              <h3><strong>Doradztwo techniczne:</strong></h3>
               <ul>
                 <li>
                   działalność w zakresie inżynierii i związane z nią doradztwo
