@@ -33,7 +33,7 @@ const ContactPage = () => (
               <InfoPharagraph>
                 <FavItem>Info</FavItem>
                 <br /> <strong>ZRB EDBUD w Rzeszowie</strong>
-                <br /> ul. Wrześniowa 2 35-303 Rzeszów NIP: 8130134393
+                <br /> ul. Wrześniowa 2 <br />35-303 Rzeszów <br />NIP: 8130134393
               </InfoPharagraph>
             </TelephonePharagraph>
           </TextWrapper>
