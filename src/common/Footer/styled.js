@@ -23,6 +23,12 @@ export const StyledInput = styled.input`
   padding: 10px 14px;
   border: none;
   margin-bottom: 15px;
+
+  
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 15px;
+  }
+  
 `;
 
 export const StyledButton = styled.button`
@@ -51,6 +57,10 @@ export const StyledButton = styled.button`
 export const StyledLabel = styled.label`
   padding: 20px 0;
   font-size: 28px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 20px;
+  }
 `;
 
 export const StyledPlace = styled.div`
@@ -61,6 +71,13 @@ export const StyledPlace = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     text-align: center;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 65px;
+    margin-top: 58px;
   }
 `;
 
