@@ -25,15 +25,17 @@ const ContactPage = () => (
             </ContactPharagraph>
             <TelephonePharagraph>
               <FavItem>Kontakt</FavItem>
-              <br />{" "}
+              <br />
               <BoldText>
-                +48601487829 <br /> +48178500092 <br />{" "}
+                +48601487829 <br /> +48178500092 <br />
                 edbud_rzeszow@poczta.onet.pl
               </BoldText>
               <InfoPharagraph>
                 <FavItem>Info</FavItem>
                 <br /> <strong>ZRB EDBUD w Rzeszowie</strong>
-                <br /> ul. Wrześniowa 2 <br />35-303 Rzeszów <br />NIP: 8130134393
+                <br /> ul. Wrześniowa 2 <br />
+                35-303 Rzeszów <br />
+                NIP: 8130134393
               </InfoPharagraph>
             </TelephonePharagraph>
           </TextWrapper>
