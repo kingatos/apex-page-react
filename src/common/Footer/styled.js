@@ -24,11 +24,9 @@ export const StyledInput = styled.input`
   border: none;
   margin-bottom: 15px;
 
-  
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 15px;
   }
-  
 `;
 
 export const StyledButton = styled.button`
@@ -96,7 +94,7 @@ export const StyledButtonPhone = styled.a`
 
   &:hover {
     background-color: ${({ theme }) => theme.color.rollingStone};
-    transform: scale(1.20);
+    transform: scale(1.2);
   }
 
   &:active {
