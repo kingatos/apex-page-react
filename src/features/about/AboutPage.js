@@ -45,7 +45,7 @@ const AboutPage = () => (
             <p>
               Ponadto, w naszej ofercie znajduje się tynkowanie, zakładanie
               stolarki budowlanej, posadzkarstwo, malowanie i szklenie oraz
-              wykonanie pozostałych robót budowlanych wykończeniowych. Jesteśmy
+              wykonanie pozostałych robót budowlanych wykończeniowych. <br/>Jesteśmy
               również specjalistami w zakresie konstrukcji i pokryć dachowych, a
               także oferujemy usługi w zakresie inżynierii i doradztwa
               technicznego.
