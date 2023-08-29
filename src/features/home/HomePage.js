@@ -78,6 +78,21 @@ const HomePage = () => (
               Znają się na robocie.
             </SectionQuoteContent>
           </SectionQuoteArcicle>
+
+          <SectionQuoteArcicle>
+            <SectionQuoteAuthor>Mateusz S.</SectionQuoteAuthor>
+            <SectionQuoteContent>
+              Nienawodni od lat! W razie remontu zawszę mogę na nich liczyć!
+            </SectionQuoteContent>
+          </SectionQuoteArcicle>
+
+          <SectionQuoteArcicle>
+            <SectionQuoteAuthor>Tomasz G.</SectionQuoteAuthor>
+            <SectionQuoteContent>
+             Polecam EKIPĘ ED BUD! Zawsze z wielkim zaangażowaniem i starannością wykonują powierzone zadania
+            </SectionQuoteContent>
+          </SectionQuoteArcicle>
+
         </SectionQuoteTestimonials>
       </SectionQuoteWrapper>
     </SectionQuote>
