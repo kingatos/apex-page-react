@@ -125,6 +125,14 @@ const Realizations = () => (
           <PhotosItem>
             <StyledPhoto src={Photo11} alt="efekt" />
           </PhotosItem>
+          
+          <PhotosItem>
+            <StyledPhoto src={Photo5} alt="efekt" />
+          </PhotosItem>
+
+          <PhotosItem>
+            <StyledPhoto src={Photo11} alt="efekt" />
+          </PhotosItem>
         </StyledPhotos>
       </ContainerPhotos>
     </SectionPhotos>
