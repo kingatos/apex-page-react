@@ -106,7 +106,7 @@ const HomePage = () => (
           <h2>Solidność, doświadczenie, profesjonalizm</h2>
           <p>
             Jesteśmy firmą, która stawia na solidność, jakość i profesjonalizm,
-            a nasza praca jest zawsze zgodna z najwyższymi standardami.
+            a nasza praca jest zawsze zgodna z najwyższymi standardami. Posiadamy zaufanie u Naszych stałych klientów.
           </p>
           <Button>Zobacz więcej</Button>
         </TextWrapperHomePage>
