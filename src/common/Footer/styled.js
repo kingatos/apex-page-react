@@ -75,7 +75,7 @@ export const StyledPlace = styled.div`
     flex-wrap: wrap;
     flex-direction: row;
     height: 65px;
-    margin-top: 58px;
+    margin-top: 60px;
   }
 `;
 
