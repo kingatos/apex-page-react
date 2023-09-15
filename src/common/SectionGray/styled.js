@@ -45,7 +45,7 @@ export const TextWrapper = styled.div`
   justify-content: center;
 
   h2 {
-    font-size: 36px;
+    font-size: 38px;
     margin-bottom: 20px;
     padding-bottom: 70px;
   }
