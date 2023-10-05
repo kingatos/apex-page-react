@@ -5,7 +5,7 @@ export const StyledFooter = styled.footer`
   padding: 20px;
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 85px;
   word-break: break-word;
   overflow-wrap: break-word;
 `;
