@@ -24,14 +24,14 @@ const AboutPage = () => (
           <TextWrapper>
             <h2>Solidność, doświadczenie, profesjonalizm</h2>
             <p>
-              <strong>Zakład Remontowo-Budowlany EDBUD</strong> to firma z wieloletnim
-              doświadczeniem na rynku budowlanym, kompleksowo realizująca
-              projekty remontowe oraz modernizacyjne. Nasze usługi obejmują
-              m.in. remonty mieszkań, domów jednorodzinnych oraz lokali
-              użytkowych, a także modernizacje obiektów przemysłowych. <br/>Działamy
-              szybko i sprawnie, zapewniając najwyższą jakość wykonywanych prac
-              oraz konkurencyjne ceny. Zaufaj nam i przekonaj się, że remonty
-              mogą być łatwe i przyjemne!
+              <strong>Zakład Remontowo-Budowlany EDBUD</strong> to firma z
+              wieloletnim doświadczeniem na rynku budowlanym, kompleksowo
+              realizująca projekty remontowe oraz modernizacyjne. Nasze usługi
+              obejmują m.in. remonty mieszkań, domów jednorodzinnych oraz lokali
+              użytkowych, a także modernizacje obiektów przemysłowych. <br />
+              Działamy szybko i sprawnie, zapewniając najwyższą jakość
+              wykonywanych prac oraz konkurencyjne ceny. Zaufaj nam i przekonaj
+              się, że remonty mogą być łatwe i przyjemne!
             </p>
           </TextWrapper>
         </>
@@ -45,10 +45,10 @@ const AboutPage = () => (
             <p>
               Ponadto, w naszej ofercie znajduje się tynkowanie, zakładanie
               stolarki budowlanej, posadzkarstwo, malowanie i szklenie oraz
-              wykonanie pozostałych robót budowlanych wykończeniowych. <br/>Jesteśmy
-              również specjalistami w zakresie konstrukcji i pokryć dachowych, a
-              także oferujemy usługi w zakresie inżynierii i doradztwa
-              technicznego.
+              wykonanie pozostałych robót budowlanych wykończeniowych. <br />
+              Jesteśmy również specjalistami w zakresie konstrukcji i pokryć
+              dachowych, a także oferujemy usługi w zakresie inżynierii i
+              doradztwa technicznego.
             </p>
           </TextWrapper>
           <ImageWrapper>
