@@ -48,7 +48,8 @@ const AboutPage = () => (
               wykonanie pozostałych robót budowlanych wykończeniowych. <br />
               Jesteśmy również specjalistami w zakresie konstrukcji i pokryć
               dachowych, a także oferujemy usługi w zakresie inżynierii i
-              doradztwa technicznego.
+              doradztwa technicznego. 
+              <br /> Serdecznie zapraszamy!
             </p>
           </TextWrapper>
           <ImageWrapper>
