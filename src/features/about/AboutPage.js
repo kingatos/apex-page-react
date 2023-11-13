@@ -65,7 +65,7 @@ const AboutPage = () => (
             <img src={Workaway} alt="wiercenie ściany" />
           </ImageWrapper>
           <TextWrapper>
-            <h2>Twoje marzenia, nasza pasja</h2>
+            <h2>Twoje marzenia, nasza pasja i misja</h2>
             <p>
               Nasza firma kładzie nacisk na jakość i terminowość realizowanych
               prac. Zatrudniamy tylko doświadczonych fachowców, którzy potrafią
