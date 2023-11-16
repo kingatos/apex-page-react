@@ -26,7 +26,7 @@ const Footer = () => {
         <StyledInput
           required
           type="text"
-          placeholder="Twój adres e-mail"
+          placeholder="Wpisz adres e-mail"
           name="email"
           value={email}
           onChange={(event) => setEmail(event.target.value)}
