@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <StyledFooter>
       <StyledForm onSubmit={handleSubmit}>
-        <StyledLabel> Skontaktuj się z Nami </StyledLabel>
+        <StyledLabel>Skontaktuj się z Nami</StyledLabel>
         <StyledInput
           required
           type="text"
