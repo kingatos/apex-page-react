@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/edbud-page-react/static/js/main.ce48f0df.js",
+    "main.js": "/edbud-page-react/static/js/main.76bbf4c6.js",
     "static/js/787.55aa0266.chunk.js": "/edbud-page-react/static/js/787.55aa0266.chunk.js",
     "static/media/wiertarka.jpg": "/edbud-page-react/static/media/wiertarka.9f10798d894c06d0188d.jpg",
     "static/media/plytkapodlogowa.png": "/edbud-page-react/static/media/plytkapodlogowa.50cdb5a37116c93c174f.png",
@@ -26,10 +26,10 @@
     "static/media/photo3.jpg": "/edbud-page-react/static/media/photo3.6b2046d9c23b84667f29.jpg",
     "static/media/photo4.jpg": "/edbud-page-react/static/media/photo4.422b66d0eaf13d75f972.jpg",
     "index.html": "/edbud-page-react/index.html",
-    "main.ce48f0df.js.map": "/edbud-page-react/static/js/main.ce48f0df.js.map",
+    "main.76bbf4c6.js.map": "/edbud-page-react/static/js/main.76bbf4c6.js.map",
     "787.55aa0266.chunk.js.map": "/edbud-page-react/static/js/787.55aa0266.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ce48f0df.js"
+    "static/js/main.76bbf4c6.js"
   ]
 }
