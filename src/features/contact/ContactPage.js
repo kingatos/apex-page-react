@@ -28,14 +28,17 @@ const ContactPage = () => (
               <br />
               <BoldText>
                 +48601487829 <br /> +48178500092 <br />
-                edbud_rzeszow@poczta.onet.pl
+                <button>
+                  <a href="mailto:edbud_rzeszow@poczta.onet.pl">
+                    edbud_rzeszow@poczta.onet.pl
+                  </a>
+                </button>
               </BoldText>
               <InfoPharagraph>
                 <FavItem>Info</FavItem>
                 <br /> <strong>ZRB EDBUD w Rzeszowie</strong>
                 <br /> ul. Wrześniowa 2 <br />
                 35-303 Rzeszów <br />
-                NIP: 8130134393
               </InfoPharagraph>
             </TelephonePharagraph>
           </TextWrapper>
