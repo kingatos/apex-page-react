@@ -8,6 +8,7 @@ import {
   BoldText,
   InfoPharagraph,
   FavItem,
+  ButtonMailto,
 } from "./styled";
 
 const ContactPage = () => (
@@ -28,11 +29,11 @@ const ContactPage = () => (
               <br />
               <BoldText>
                 +48601487829 <br /> +48178500092 <br />
-                <button>
+                <ButtonMailto>
                   <a href="mailto:edbud_rzeszow@poczta.onet.pl">
                     edbud_rzeszow@poczta.onet.pl
                   </a>
-                </button>
+                </ButtonMailto>
               </BoldText>
               <InfoPharagraph>
                 <FavItem>Info</FavItem>
