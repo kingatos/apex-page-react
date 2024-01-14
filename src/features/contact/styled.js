@@ -40,10 +40,15 @@ export const ButtonMailto = styled.button`
 
   &:hover {
     background-color: ${({ theme }) => theme.color.rollingStone};
-    transform: scale(1.05);
+    transform: scale(1.15);
   }
 
   &:active {
     background-color: ${({ theme }) => theme.color.trout};
   }
+`;
+
+export const MailtoInner = styled.a`
+color: ${({ theme }) => theme.color.white};
+text-decoration: none;
 `;
