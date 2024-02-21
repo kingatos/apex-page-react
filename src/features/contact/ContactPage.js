@@ -10,6 +10,7 @@ import {
   FavItem,
   ButtonMailto,
   MailtoInner,
+  PhoneNumber,
 } from "./styled";
 
 const ContactPage = () => (
@@ -29,7 +30,8 @@ const ContactPage = () => (
               <FavItem>Kontakt</FavItem>
               <br />
               <BoldText>
-                601487829 <br /> 178500092 <br />
+                <PhoneNumber href="tel:+48601487829">601487829 </PhoneNumber> <br />
+                <PhoneNumber href="tel:+48178500092">178500092</PhoneNumber> <br />
                 <ButtonMailto>
                   <MailtoInner href="mailto:edbud_rzeszow@poczta.onet.pl">
                     WYŚLIJ WIADOMOŚĆ!

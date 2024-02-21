@@ -49,6 +49,15 @@ export const ButtonMailto = styled.button`
 `;
 
 export const MailtoInner = styled.a`
-color: ${({ theme }) => theme.color.white};
-text-decoration: none;
+  color: ${({ theme }) => theme.color.white};
+  text-decoration: none;
+`;
+
+export const PhoneNumber = styled.a`
+  text-decoration: none;
+  color: ${({ theme }) => theme.color.dixie};
+
+  &:hover {
+    color: ${({ theme }) => theme.color.rollingStone};
+  }
 `;
