@@ -8,6 +8,7 @@ import {
   StyledPhotos,
   PhotosItem,
   StyledPhoto,
+  TitleGalery,
 } from "./styled";
 import PhotoEffect from "../.././images/cienie.jpg";
 import Photo from "../.././photos/photo.jpg";
@@ -53,6 +54,9 @@ const Realizations = () => (
 
     <SectionPhotos>
       <ContainerPhotos>
+        <TitleGalery>
+          Galeria zdjęć
+        </TitleGalery>
         <StyledPhotos>
           <PhotosItem>
             <StyledPhoto src={Photo} alt="efekt" />
@@ -125,7 +129,7 @@ const Realizations = () => (
           <PhotosItem>
             <StyledPhoto src={Photo11} alt="efekt" />
           </PhotosItem>
-          
+
           <PhotosItem>
             <StyledPhoto src={Photo5} alt="efekt" />
           </PhotosItem>
