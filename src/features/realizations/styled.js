@@ -58,3 +58,12 @@ export const StyledPhoto = styled.img`
   height: auto;
   max-width: 100%;
 `;
+
+export const TitleGalery = styled.div`
+  display: grid;
+  justify-items: stretch;
+  justify-content: center;
+  padding: 50px;
+  font-weight: bold;
+  font-size: 30px;
+`;
