@@ -25,13 +25,13 @@ const HomePage = () => (
           <TextWrapperHomePage>
             <h2>Budujemy dla Ciebie, z pasją i zaangażowaniem</h2>
             <p>
-              Zakład Remontowo-Budowlany EDBUD to firma z ponad
-              30-letnim doświadczeniem na rynku budowlanym. <br/>Zajmujemy się
-              kompleksowymi usługami remontowo-budowlanymi, w tym robotami
-              związanymi z wykończeniem budynków mieszkalnych i niemieszkalnych,
-              rozbiórką i burzeniem obiektów budowlanych, instalacjami
-              elektrycznymi i wodno-kanalizacyjnymi, tynkowaniem, stolarką
-              budowlaną, malowaniem oraz wykonaniem pozostałych robót
+              Zakład Remontowo-Budowlany EDBUD to firma z ponad 30-letnim
+              doświadczeniem na rynku budowlanym. <br />
+              Zajmujemy się kompleksowymi usługami remontowo-budowlanymi, w tym
+              robotami związanymi z wykończeniem budynków mieszkalnych i
+              niemieszkalnych, rozbiórką i burzeniem obiektów budowlanych,
+              instalacjami elektrycznymi i wodno-kanalizacyjnymi, tynkowaniem,
+              stolarką budowlaną, malowaniem oraz wykonaniem pozostałych robót
               budowlanych wykończeniowych.
             </p>
           </TextWrapperHomePage>
@@ -80,19 +80,38 @@ const HomePage = () => (
           </SectionQuoteArcicle>
 
           <SectionQuoteArcicle>
-            <SectionQuoteAuthor>Mateusz S.</SectionQuoteAuthor>
+            <SectionQuoteAuthor>Tomasz G.</SectionQuoteAuthor>
             <SectionQuoteContent>
-              Nienawodni od lat! W razie remontu zawszę mogę na nich liczyć!
+              Polecam ekipę EDBUD! Zawsze z wielkim zaangażowaniem i
+              starannością wykonują powierzone zadania
             </SectionQuoteContent>
           </SectionQuoteArcicle>
 
           <SectionQuoteArcicle>
-            <SectionQuoteAuthor>Tomasz G.</SectionQuoteAuthor>
+            <SectionQuoteAuthor>Grzegorz M.</SectionQuoteAuthor>
             <SectionQuoteContent>
-             Polecam EKIPĘ ED BUD! Zawsze z wielkim zaangażowaniem i starannością wykonują powierzone zadania
+              Pełen profesjonalizm, bardzo solidna i rzetelna firma. Gorąco
+              polecam.
             </SectionQuoteContent>
           </SectionQuoteArcicle>
 
+          <SectionQuoteArcicle>
+            <SectionQuoteAuthor>Jakub R.</SectionQuoteAuthor>
+            <SectionQuoteContent>
+              Bardzo jestem zadowolony z usług tej firmy, konkretni i
+              profesjonalni. Polecam.
+            </SectionQuoteContent>
+          </SectionQuoteArcicle>
+
+          <SectionQuoteArcicle>
+            <SectionQuoteAuthor>Wojciech</SectionQuoteAuthor>
+            <SectionQuoteContent>
+              Bardzo jestem zadowolony z usług tej firmy - szybkie ustalenie
+              kosztorysu, praca rzetelnie i dokładnie wykonana. Wszelkie
+              niespodzianki budowlane na bieżąco były omawiane i usuwane. Gorąco
+              polecam.
+            </SectionQuoteContent>
+          </SectionQuoteArcicle>
         </SectionQuoteTestimonials>
       </SectionQuoteWrapper>
     </SectionQuote>
@@ -106,7 +125,8 @@ const HomePage = () => (
           <h2>Solidność, doświadczenie, profesjonalizm</h2>
           <p>
             Jesteśmy firmą, która stawia na solidność, jakość i profesjonalizm,
-            a nasza praca jest zawsze zgodna z najwyższymi standardami. Posiadamy zaufanie u Naszych stałych klientów.
+            a nasza praca jest zawsze zgodna z najwyższymi standardami.
+            Posiadamy zaufanie u Naszych stałych klientów.
           </p>
           <Button>Zobacz więcej</Button>
         </TextWrapperHomePage>
