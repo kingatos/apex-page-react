@@ -9,6 +9,8 @@ export const theme = {
     doveGray: "#696969",
     charade: "#2E2D37",
     dixie: "#e08e16",
+    scienceBlue: "#0366D6",
+    slateGray: "#6E7E91",
   },
   breakpoint: {
     mobileMax: 768,
