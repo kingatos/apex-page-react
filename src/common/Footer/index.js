@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { socialMedia } from "./socialMedia";
 import {
   StyledFooter,
   StyledForm,
@@ -7,6 +8,8 @@ import {
   StyledLabel,
   StyledPlace,
   StyledButtonPhone,
+  WrapperIcon,
+  Link,
 } from "./styled";
 
 const Footer = () => {
@@ -41,6 +44,20 @@ const Footer = () => {
           📞178500092
         </StyledButtonPhone>
       </StyledPlace>
+
+      <WrapperIcon>
+        {socialMedia.map(({ name, link, Icon }) => (
+          <Link
+            key={name}
+            href={link}
+            title={name}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <Icon />
+          </Link>
+        ))}
+      </WrapperIcon>
     </StyledFooter>
   );
 };
