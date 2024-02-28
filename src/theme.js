@@ -13,8 +13,8 @@ export const theme = {
     slateGray: "#6E7E91",
   },
   breakpoint: {
-    mobileMax: 768,
     mobileMin: 320,
+    mobileMax: 768,
     mobileHigh: 1023,
     mobileMedium: 1000,
   },
