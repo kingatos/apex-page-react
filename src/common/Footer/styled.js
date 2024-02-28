@@ -8,6 +8,10 @@ export const StyledFooter = styled.footer`
   gap: 85px;
   word-break: break-word;
   overflow-wrap: break-word;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    flex-wrap:wrap;
+  }
 `;
 
 export const StyledForm = styled.form`
@@ -74,7 +78,6 @@ export const StyledPlace = styled.div`
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 65px;
     margin-top: 60px;
   }
 `;
@@ -99,5 +102,32 @@ export const StyledButtonPhone = styled.a`
 
   &:active {
     background-color: ${({ theme }) => theme.color.trout};
+  }
+`;
+
+export const WrapperIcon = styled.div`
+  display: flex;
+  gap: 24px;
+  padding: 40px 0 0;
+`;
+
+export const Link = styled.a`
+  color: ${({ theme }) => theme.color.slateGray};
+  text-decoration: none;
+`;
+
+export const StyledIcon = (Icon) => styled(Icon)`
+  width: 48px;
+  height: 48px;
+  fill: ${({ theme }) => theme.color.black};
+  transition: 0.5s;
+
+  &:hover {
+    fill: ${({ theme }) => theme.color.scienceBlue};
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMin}px) {
+    width: 32px;
+    height: 32px;
   }
 `;
