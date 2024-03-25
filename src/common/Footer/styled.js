@@ -10,7 +10,7 @@ export const StyledFooter = styled.footer`
   overflow-wrap: break-word;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-    flex-wrap:wrap;
+    flex-wrap: wrap;
   }
 `;
 
@@ -117,8 +117,8 @@ export const Link = styled.a`
 `;
 
 export const StyledIcon = (Icon) => styled(Icon)`
-  width: 48px;
-  height: 48px;
+  width: 30px;
+  height: 30px;
   fill: ${({ theme }) => theme.color.black};
   transition: 0.5s;
 
