@@ -21,8 +21,7 @@ const ContactPage = () => (
         <>
           <TextWrapper>
             <ContactPharagraph>
-              Obsługujemy Klientów na terenie Rzeszowa oraz bliskich okolic
-              wokół miasta.
+              Obsługujemy Klientów na terenie podkarpacia.
               <br />
               Zachęcamy do skorzystania z naszej oferty.
             </ContactPharagraph>
@@ -30,19 +29,19 @@ const ContactPage = () => (
               <FavItem>Kontakt</FavItem>
               <br />
               <BoldText>
-                <PhoneNumber href="tel:+48601487829">601487829 </PhoneNumber> <br />
+                <PhoneNumber href="tel:+48601758145">601758145 </PhoneNumber> <br />
                 <PhoneNumber href="tel:+48178500092">178500092</PhoneNumber> <br />
                 <ButtonMailto>
-                  <MailtoInner href="mailto:edbud_rzeszow@poczta.onet.pl">
+                  <MailtoInner href="mailto:toskinga01@gmail.com">
                     WYŚLIJ WIADOMOŚĆ!
                   </MailtoInner>
                 </ButtonMailto>
               </BoldText>
               <InfoPharagraph>
                 <FavItem>Info</FavItem>
-                <br /> <strong>ZRB EDBUD w Rzeszowie</strong>
-                <br /> ul. Wrześniowa 2 <br />
-                35-303 Rzeszów <br />
+                <br /> <strong>APEX</strong>
+                <br /> ul. Akacjowa 3 <br />
+                35-058 Rzeszów <br />
               </InfoPharagraph>
             </TelephonePharagraph>
           </TextWrapper>
