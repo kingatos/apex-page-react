@@ -17,7 +17,7 @@ const Footer = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    const mailtoLink = `mailto:edbud_rzeszow@poczta.onet.pl?subject=Wiadomość z formularza kontaktowego&body=Email: ${email}%0D%0A`;
+    const mailtoLink = `mailto:toskinga01@gmail.com?subject=Wiadomość z formularza kontaktowego&body=Email: ${email}%0D%0A`;
 
     window.open(mailtoLink, "_blank");
   };
