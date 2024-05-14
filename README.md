@@ -1,10 +1,7 @@
 # Getting Started with Create React App
 
-# ↪️[DEMO](https://kingatos.github.io/edbud-page-react/)
+# ↪️[DEMO](https://kingatos.github.io/apex-page-react/)
 
-# ![How it use?](https://i.ibb.co/d00BM6V/Zrzut-ekranu-2023-04-20-214650.jpg) 
-# ![How it use?](https://i.ibb.co/tBmg0db/Zrzut-ekranu-2023-04-20-214712.jpg) 
-# ![How it use?](https://i.ibb.co/RBD6Pm1/Zrzut-ekranu-2023-04-20-214736.jpg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
