@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import imageBackground1 from "./plytkapodlogowa.png";
 import imageBackground2 from "./cienie.png";
-import imageBackground3 from "./totalny remont.jpg";
+import imageBackground3 from "./totalny remont.png";
 import imageQuote from "./quote.png";
 
 export const WrapperSectionGreyHomePage = styled.section`
