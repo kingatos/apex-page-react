@@ -23,16 +23,13 @@ const HomePage = () => (
       <WrapperSectionGreyHomePage>
         <>
           <TextWrapperHomePage>
-            <h2>Budujemy dla Ciebie, z pasją i zaangażowaniem</h2>
+            <h2>Projektujemy dla Ciebie</h2>
             <p>
-              Zakład Remontowo-Budowlany EDBUD to firma z ponad 30-letnim
-              doświadczeniem na rynku budowlanym. <br />
-              Zajmujemy się kompleksowymi usługami remontowo-budowlanymi, w tym
-              robotami związanymi z wykończeniem budynków mieszkalnych i
-              niemieszkalnych, rozbiórką i burzeniem obiektów budowlanych,
-              instalacjami elektrycznymi i wodno-kanalizacyjnymi, tynkowaniem,
-              stolarką budowlaną, malowaniem oraz wykonaniem pozostałych robót
-              budowlanych wykończeniowych.
+              Witaj w APEX - Twoim partnerze w realizacji projektów! Jesteśmy
+              innowacyjnym biurem projektowym, które z pasją i zaangażowaniem
+              tworzy rozwiązania na miarę Twoich potrzeb. Zapraszamy Cię do
+              odkrycia naszej oferty i zapoznania się z naszymi dotychczasowymi
+              osiągnięciami.
             </p>
           </TextWrapperHomePage>
         </>
@@ -45,71 +42,56 @@ const HomePage = () => (
       <SectionQuoteWrapper>
         <SectionQuoteTestimonials>
           <SectionQuoteArcicle>
-            <SectionQuoteAuthor>Przemysław W.</SectionQuoteAuthor>
+            <SectionQuoteAuthor>Tatiana W.</SectionQuoteAuthor>
             <SectionQuoteContent>
-              Świetna firma. Od lat korzystam z usług i nigdy mnie nie zawiedli,
-              zawsze solidnie i uczciwie. Jeśli chcesz mieć wykonaną fachową
-              robotę to gorąco ich polecam.
+              Bardzo cenimy współpracę z firmą APEX Profesjonalizm, dbałość o
+              detale projektu, indywidualne podejście do Klienta, najlepsze
+              materiały i świetny kontakt. Zawsze sprawnie i terminowo. Polecamy
+              !
             </SectionQuoteContent>
           </SectionQuoteArcicle>
 
           <SectionQuoteArcicle>
-            <SectionQuoteAuthor>Piotr S.</SectionQuoteAuthor>
+            <SectionQuoteAuthor>Paweł K.</SectionQuoteAuthor>
             <SectionQuoteContent>
-              "Elegancja-francja", fachowa robota bardzo dokładna. Jestem
-              zadowolony.
+              Nie ma lepszego biura projektowego niż APEX! Polecam wszystkim.
+              Firma godna zaufania, profesjonalizm, przystępne ceny zawsze na
+              czas. Wysoki poziom wykonania
             </SectionQuoteContent>
           </SectionQuoteArcicle>
 
           <SectionQuoteArcicle>
-            <SectionQuoteAuthor>Dariusz G.</SectionQuoteAuthor>
+            <SectionQuoteAuthor>Judtya W.</SectionQuoteAuthor>
+            <SectionQuoteContent>Pełen profesjonalizm, Gorąco
+              polecam. Warto skorzystac !!! Wspólpracujemy razem jako wykonawcy,
+              czytelne projekty ktore ulatwiaja nam prace 👌 zadowoleni klienci
+              to prorytet dzieki Apex</SectionQuoteContent>
+          </SectionQuoteArcicle>
+
+          <SectionQuoteArcicle>
+            <SectionQuoteAuthor>Weronika T.</SectionQuoteAuthor>
             <SectionQuoteContent>
-              W 100% polecam. Firma godna zaufania, remont mieszkania wykonany
-              bardzo precyzyjnie, szybko, wedle moich upodobań, wzbogacony o
-              innowacyjne pomysły właściciela. Wykonanie po przystępnej cenie.
-              Brak jakichkolwiek zarzutów.
+              Najlepsze biuro projektowe w Polsce. Jeśli ktoś ceni eleganckie i
+              stylowe wnętrza to z pewnością się nie zawiedzie. Dobór kolorów i
+              materiałów to wyższy wymiar. Pani Barbara ma do tego szósty zmysł
+              😉 Z pewnością wrócimy przy kolejnym projekcie. Każda zmiana
+              dokonana na własną rękę okazała się błędem. Polecam z całego
+              serca!
             </SectionQuoteContent>
           </SectionQuoteArcicle>
 
           <SectionQuoteArcicle>
-            <SectionQuoteAuthor>Katarzyna T.</SectionQuoteAuthor>
+            <SectionQuoteAuthor>Wiktor S.</SectionQuoteAuthor>
             <SectionQuoteContent>
-              Super firma polecam z całego serca, praca super wykonana i szybko.
-              Znają się na robocie.
+              Zawsze z wielkim zaangażowaniem i starannością wykonują powierzone
+              zadania, bardzo kreatywne pomysły.
             </SectionQuoteContent>
           </SectionQuoteArcicle>
 
           <SectionQuoteArcicle>
-            <SectionQuoteAuthor>Tomasz G.</SectionQuoteAuthor>
+            <SectionQuoteAuthor>Kamil D.</SectionQuoteAuthor>
             <SectionQuoteContent>
-              Polecam ekipę EDBUD! Zawsze z wielkim zaangażowaniem i
-              starannością wykonują powierzone zadania
-            </SectionQuoteContent>
-          </SectionQuoteArcicle>
-
-          <SectionQuoteArcicle>
-            <SectionQuoteAuthor>Grzegorz M.</SectionQuoteAuthor>
-            <SectionQuoteContent>
-              Pełen profesjonalizm, bardzo solidna i rzetelna firma. Gorąco
-              polecam.
-            </SectionQuoteContent>
-          </SectionQuoteArcicle>
-
-          <SectionQuoteArcicle>
-            <SectionQuoteAuthor>Jakub R.</SectionQuoteAuthor>
-            <SectionQuoteContent>
-              Bardzo jestem zadowolony z usług tej firmy, konkretni i
-              profesjonalni. Polecam.
-            </SectionQuoteContent>
-          </SectionQuoteArcicle>
-
-          <SectionQuoteArcicle>
-            <SectionQuoteAuthor>Wojciech</SectionQuoteAuthor>
-            <SectionQuoteContent>
-              Bardzo jestem zadowolony z usług tej firmy - szybkie ustalenie
-              kosztorysu, praca rzetelnie i dokładnie wykonana. Wszelkie
-              niespodzianki budowlane na bieżąco były omawiane i usuwane. Gorąco
-              polecam.
+              Polecam w 100%! Wspaniałe wykonanie
             </SectionQuoteContent>
           </SectionQuoteArcicle>
         </SectionQuoteTestimonials>
@@ -122,11 +104,12 @@ const HomePage = () => (
           <img src={PhotoShadow} alt="efekt" />
         </ImageWrapperHomePage>
         <TextWrapperHomePage>
-          <h2>Solidność, doświadczenie, profesjonalizm</h2>
+          <h2>Nasza misja</h2>
           <p>
-            Jesteśmy firmą, która stawia na solidność, jakość i profesjonalizm,
-            a nasza praca jest zawsze zgodna z najwyższymi standardami.
-            Posiadamy zaufanie u Naszych stałych klientów.
+            Dowiedz się więcej o naszej misji i wartościach, które kierują naszą
+            pracą każdego dnia. W APEX dążymy do dostarczania innowacyjnych i
+            zrównoważonych rozwiązań projektowych, które spełniają oczekiwania
+            naszych klientów.
           </p>
           <Button>Zobacz więcej</Button>
         </TextWrapperHomePage>

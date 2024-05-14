@@ -22,16 +22,14 @@ const AboutPage = () => (
             />
           </ImageWrapper>
           <TextWrapper>
-            <h2>Solidność, doświadczenie, profesjonalizm</h2>
+            <h2>Najważniejsza jest jakość..</h2>
             <p>
-              <strong>Zakład Remontowo-Budowlany EDBUD</strong> to firma z
-              wieloletnim doświadczeniem na rynku budowlanym, kompleksowo
-              realizująca projekty remontowe oraz modernizacyjne. Nasze usługi
-              obejmują m.in. remonty mieszkań, domów jednorodzinnych oraz lokali
-              użytkowych, a także modernizacje obiektów przemysłowych. <br />
-              Działamy szybko i sprawnie, zapewniając najwyższą jakość
-              wykonywanych prac oraz konkurencyjne ceny. Zaufaj nam i przekonaj
-              się, że remonty mogą być łatwe i przyjemne!
+              APEX to zespół doświadczonych projektantów, architektów i
+              inżynierów, którzy połączyli swoje umiejętności, aby dostarczać
+              projekty o najwyższej jakości. Nasza firma cechuje się pasją do
+              tworzenia innowacyjnych rozwiązań, przy jednoczesnym zachowaniu
+              zrównoważonego podejścia do projektowania. Dowiedz się więcej o
+              naszej historii, wartościach i naszym podejściu do projektowania.
             </p>
           </TextWrapper>
         </>
@@ -41,14 +39,12 @@ const AboutPage = () => (
       body={
         <>
           <TextWrapper>
-            <h2>Budujemy dla Ciebie, z pasją i zaangażowaniem</h2>
+            <h2>Jesteśmy dla Ciebie</h2>
             <p>
-              Ponadto, w naszej ofercie znajduje się tynkowanie, zakładanie
-              stolarki budowlanej, posadzkarstwo, malowanie i szklenie oraz
-              wykonanie pozostałych robót budowlanych wykończeniowych. <br />
-              Jesteśmy również specjalistami w zakresie konstrukcji i pokryć
-              dachowych, a także oferujemy usługi w zakresie inżynierii i
-              doradztwa technicznego. 
+              Poznaj naszą filozofię projektowania, która opiera się na
+              połączeniu kreatywności, funkcjonalności i estetyki. Wierzymy, że
+              doskonałe projekty powinny nie tylko wyglądać pięknie, ale także
+              spełniać swoje funkcje w sposób efektywny i zrównoważony.
               <br /> Serdecznie zapraszamy!
             </p>
           </TextWrapper>
@@ -67,11 +63,10 @@ const AboutPage = () => (
           <TextWrapper>
             <h2>Twoje marzenia, nasza pasja i misja</h2>
             <p>
-              Nasza firma kładzie nacisk na jakość i terminowość realizowanych
-              prac. Zatrudniamy tylko doświadczonych fachowców, którzy potrafią
-              sprostać nawet najbardziej wymagającym zadaniom. Dzięki temu nasi
-              Klienci mogą być pewni, że ich inwestycje będą wykonane solidnie i
-              zgodnie z najwyższymi standardami.
+              Odkryj, dlaczego warto wybrać APEX jako partnera w realizacji
+              Twoich projektów. Dowie się więcej o naszych wartościach dodanych,
+              podejściu do klienta i unikalnych cechach, które wyróżniają nas na
+              rynku.
             </p>
           </TextWrapper>
         </>

@@ -36,13 +36,12 @@ const Realizations = () => (
         <>
           <TextWrapper>
             <p>
-              Nasza firma w ciągu 30 lat swojej działalności zrealizowała wiele
-              zróżnicowanych zadań, w tym, renowacje budynków zabytkowych,
-              kompleksowe wykończenia wnętrz, a także prace konstrukcyjne i
-              remontowe na wielu obiektach przemysłowych i użyteczności
-              publicznej. Poniżej przedstawiamy część z naszych projektów, które
-              w pełni oddają nasze umiejętności oraz zadowolenie naszych
-              klientów.
+              Przejrzyj nasze dotychczasowe realizacje, aby zobaczyć, jakie
+              projekty udało nam się zrealizować dla naszych klientów. Od
+              nowoczesnych budynków mieszkalnych po kompleksowe projekty
+              przestrzenne - nasze osiągnięcia mówią same za siebie. Jesteśmy
+              dumni z każdego projektu, który udało nam się zrealizować i
+              chętnie podzielimy się nimi z Tobą.
             </p>
           </TextWrapper>
           <ImageWrapper>
@@ -54,9 +53,7 @@ const Realizations = () => (
 
     <SectionPhotos>
       <ContainerPhotos>
-        <TitleGalery>
-          Galeria zdjęć
-        </TitleGalery>
+        <TitleGalery>Galeria zdjęć</TitleGalery>
         <StyledPhotos>
           <PhotosItem>
             <StyledPhoto src={Photo} alt="efekt" />

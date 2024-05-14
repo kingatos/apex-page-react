@@ -14,36 +14,35 @@ const OfferPage = () => (
             <img src={PhotoEffect} alt="efekt" />
           </ImageWrapper>
           <TextWrapper>
-            <ul>
-              <h3><strong>Usługi budowlane:</strong></h3>
-              <ul>
-                <li>modernizacja i przebudowa istniejących budynków</li>
-                <li>rozbiórka i burzenie obiektów budowlanych</li>
-                <li>wykonywanie instalacji elektrycznych</li>
-                <li>
-                  wykonywanie instalacji wodno-kanalizacyjnych, cieplnych,
-                  gazowych i klimatyzacyjnych
-                </li>
-                <li>wykonanie konstrukcji i pokryć dachowych</li>
-              </ul>
-              <h3><strong>Usługi wykończeniowe:</strong></h3>
-              <ul>
-                <li>tynkowanie</li>
-                <li>zakładanie stolarki budowlanej</li>
-                <li>posadzkarstwo</li>
-                <li>malowanie i szklenie</li>
-                <li>wykonanie pozostałych robót budowlanych wykończeniowych</li>
-              </ul>
-              <h3><strong>Doradztwo techniczne:</strong></h3>
-              <ul>
-                <li>
-                  działalność w zakresie inżynierii i związane z nią doradztwo
-                  techniczne
-                </li>
-                <li>doradztwo w zakresie wyboru materiałów budowlanych</li>
-                <li>pomoc w uzyskaniu niezbędnych pozwoleń i zezwoleń</li>
-              </ul>
-            </ul>
+              <h3>
+                <strong>Usługi architektoniczne</strong>
+              </h3>
+              <p>
+                Nasz zespół inżynierów budowlanych oferuje kompleksowe usługi
+                inżynieryjne, obejmujące projektowanie konstrukcji, instalacji,
+                instalacji sanitarnych i elektrycznych. Zapewniamy wsparcie na
+                każdym etapie procesu budowlanego, dbając o efektywność,
+                bezpieczeństwo i zgodność z obowiązującymi normami i przepisami.
+              </p>
+              <h3>
+                <strong>Konsultacje Projektowe</strong>
+              </h3>
+              <p>
+                Oferujemy konsultacje projektowe dla klientów, którzy potrzebują
+                profesjonalnej pomocy w planowaniu i realizacji swoich
+                projektów. Nasz zespół ekspertów doradzi Ci w wyborze
+                najlepszych rozwiązań projektowych, zapewniając wsparcie i
+                doradztwo na każdym etapie projektu.
+              </p>
+              <h3>
+                <strong>Doradztwo Zrównoważonego Rozwoju</strong>
+              </h3>
+              <p>
+                Jako firma świadoma społecznie i ekologicznie, oferujemy również
+                doradztwo zrównoważonego rozwoju dla naszych klientów. Pomagamy
+                w opracowaniu projektów, które są przyjazne dla środowiska,
+                energooszczędne i zgodne z zasadami zrównoważonego rozwoju.
+              </p>
           </TextWrapper>
         </>
       }
